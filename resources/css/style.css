@@ -1,0 +1,63 @@
+body {
+    background-color: white;
+    padding: 0;
+    margin: o;
+    text-align: center;
+    font-size: 16px;
+}
+
+header {
+    background-color: whitesmoke;
+    padding: 15px;
+    box-shadow: 0 0 3px darkgray;
+}
+
+header li {
+    display: inline;
+    font-size: 20px;
+}
+
+header ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+header li a :hover {
+    color: royalblue;
+}
+
+header ul #sign a {
+    color: #fff;
+    background-color: blue;
+    border-radius: 20px;
+}
+
+header ul #sign a:hover {
+    background-color: goldenrod;
+}
+
+header ul li p {
+    display: inline;
+}
+
+li a {
+    margin-right: 50px;
+
+}
+
+.black {
+    color: black;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.gray {
+    color: darkgray;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+p {
+    float: left;
+    margin-top: -10px;
+}
