@@ -61,3 +61,30 @@ p {
     float: left;
     margin-top: -10px;
 }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    background-color: lightgray;
+    width: 100%;
+}
+
+.banner1 img {
+    width: 100%;
+    padding: 32px 0px 32px 24px;
+    justify-content: left;
+}
+
+.banner2 {
+    padding-left: 50px;
+    padding-right: 32px;
+    width: 40%;
+    margin-top: 120px;
+    font-size: 30px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(129, 107, 107)
+    font-weight: bold;
+    text-align: justify;
+
+}
