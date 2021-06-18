@@ -4,6 +4,7 @@ body {
     margin: o;
     text-align: center;
     font-size: 16px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
@@ -101,3 +102,112 @@ p {
     font-weight: lighter;
     text-align: center;
 }
+
+.flex-content {
+    display: flex;
+    padding: 0 1.5rem;
+}
+
+.main-content {
+    width: 60%;
+
+}
+
+.media-container {
+    overflow: hidden;
+
+}
+
+.content-image-box {
+    display: flex;
+    padding: 1rem 0 1rem 1rem;
+    border-bottom: 1px solid rgb(245, 245, 245);
+  }
+
+  .content-image-box .text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+    padding: 0 0.75rem 0 1rem;
+  }
+
+  .content-image-box h4 {
+    padding-bottom: .5rem;
+    font-size: 125rem;
+    font-weight: bold;
+  }
+  
+  .content-image-box p {
+    padding-bottom: .5rem;
+  }
+
+
+.information-sec {
+    display: flex;
+}
+
+.info-img {
+    padding: 32px 22px;
+}
+
+.info-text {
+    text-align: left;
+    padding-left: 24px;
+    padding-bottom: 32px;
+}
+
+.info-heading {
+    font-weight: 600;
+    margin-top: 0;
+    font-size: 25px;
+}
+
+.info-heading h3 {
+    
+}
+
+
+.info-img img {
+    width: 100%;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+    width: 40%;
+    
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid lightgray;
+    margin-bottom: 1px;
+    
+}
+
+.card:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.card-img img {
+    width: 100%;
+}
+
+.card-img {
+    width: 35%;
+    height: auto;
+
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    
+}
+
