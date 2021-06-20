@@ -254,7 +254,7 @@ h2 {
 .image-container {
     display: flex;
     flex-flow: 1;
-    padding: 32px 72px;
+    padding: 32px 72px 0px 72px;
 }
 
 .image-content {
@@ -266,10 +266,8 @@ h2 {
 
 .image-content img {
     display: flex;
-    width: 100%;
     height: auto;
     border: 1px solid darkgrey;
-    padding-right: 32px;
 }
 
 .image-content .text-container {
@@ -277,6 +275,11 @@ h2 {
     flex-direction: column;
     padding: 16px;
     text-align: left;
+}
+
+.img-course {
+    width: 90%;
+    height: 100%;
 }
 
 .text-container h3 {
@@ -293,3 +296,38 @@ h2 {
 .text-container p {
     color: darkgrey;
 }
+
+.thesis-sec {
+    display: flex;
+    width: 100%;
+    padding: 16px 24px;
+    background-color: whitesmoke;
+}
+
+.thesis-content {
+    width: 60%;
+    padding: 24px;
+}
+
+.info-video video {
+    width: 100%;
+}
+
+.footer {
+    background-color: rgb(241, 238, 238);
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.left-footer h5 {
+    color: gray;
+    float: left;
+}
+
+.right-footer h5 {
+    color: gray;
+    float: right;
+}
+
