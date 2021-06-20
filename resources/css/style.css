@@ -71,10 +71,19 @@ p {
     width: 100%;
 }
 
+.banner1 {
+    width: 60%;
+
+}
+
 .banner1 img {
     width: 100%;
     padding: 32px 0px 32px 24px;
     justify-content: left;
+}
+
+.img-banner {
+    width: 100%;
 }
 
 .banner2 {
@@ -163,8 +172,15 @@ p {
     font-size: 25px;
 }
 
-.info-heading h3 {
-    
+.info-heading {
+    color: rgb(90, 79, 79);
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.info-heading p {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(190, 190, 190, 0.336);
 }
 
 
@@ -211,3 +227,69 @@ p {
     
 }
 
+.card-text h4 {
+    color:rgb(90, 79, 79);
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.card-text a {
+text-decoration: none;
+color: blue;
+}
+
+.start-learning {
+    background-color: lightgray;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+}
+
+h2 {
+    color: rgb(90, 79, 79);
+    margin-left: 550px;
+}
+
+.image-container {
+    display: flex;
+    flex-flow: 1;
+    padding: 32px 72px;
+}
+
+.image-content {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    background-color: whitesmoke;
+}
+
+.image-content img {
+    display: flex;
+    width: 100%;
+    height: auto;
+    border: 1px solid darkgrey;
+    padding-right: 32px;
+}
+
+.image-content .text-container {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    text-align: left;
+}
+
+.text-container h3 {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: rgb(90, 79, 79);
+}
+
+.text-container h4 {
+    color: darkgrey;
+}
+
+.text-container p {
+    color: darkgrey;
+}
