@@ -7,13 +7,13 @@ body {
     font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
 
-@media only screen and ()
+
     
 
 
 header {
     background-color: whitesmoke;
-    padding: 15px;
+    padding: 1%;
     box-shadow: 0 0 3px darkgray;
 }
 
@@ -95,7 +95,7 @@ p {
     padding-right: 32px;
     width: 40%;
     margin-top: 120px;
-    font-size: 30px;
+    font-size: 2rem;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(129, 107, 107)
     font-weight: bold;
@@ -106,7 +106,7 @@ p {
     background-color: rgb(90, 79, 79);
     display: block;
     flex-direction: row;
-    padding: 0.05px;
+    padding: 0.1%;
 }
 
 
@@ -178,7 +178,7 @@ p {
 
 .info-heading {
     color: rgb(90, 79, 79);
-    font-size: 35px;
+    font-size: 2rem;
     font-weight: bold;
 }
 
@@ -235,7 +235,7 @@ p {
     color:rgb(90, 79, 79);
     font-family: Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 2rem;
 }
 
 .card-text a {
@@ -250,9 +250,9 @@ color: blue;
     width: 100%;
 }
 
-h2 {
+.text-center {
     color: rgb(90, 79, 79);
-    margin-left: 550px;
+    margin-left: 32rem;
 }
 
 .image-container {
