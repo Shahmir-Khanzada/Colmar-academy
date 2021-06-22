@@ -7,7 +7,74 @@ body {
     font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
 
-header {
+.navbar-items {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-items img {
+    display: none;
+}
+
+
+.navbar-logo {
+    display: flex;
+}
+
+.navbar-logo h1 {
+    font-size: 24px;
+}
+
+
+.navbar-logo h1 span {
+        color: lightgray;
+        font-weight: 500;
+}
+
+.navbar-logo img {
+    margin-right: 4px;
+}
+
+
+.navbar-container {
+    display: flex;
+    
+    margin: 0;
+    padding: 0 24px;
+    overflow: hidden;
+    justify-content: space-between;
+  }
+
+  .navbar-items ul {
+    list-style-type: none;
+    margin: 0px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+  
+ 
+
+
+
+
+
+
+
+
+
+/* header {
     height: 70px;
     background-color: whitesmoke;
     width: 100%;
@@ -41,7 +108,7 @@ nav a {
     font-size: 20px;
     margin: 0 10px;
     color: dimgray;
-}
+} */
 
 
 
@@ -318,7 +385,6 @@ color: blue;
 }
 
 .start-learning {
-    background-color: lightgray;
     flex-wrap: wrap;
     display: flex;
     align-items: center;
@@ -377,6 +443,7 @@ color: blue;
 .text-container p {
     color: darkgrey;
 }
+
 
 .thesis-sec {
     display: flex;
@@ -483,6 +550,35 @@ color: blue;
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 576px) and (max-width: 767px ) { 
+    .navbar-container {
+        justify-content: center;
+    
+    }
+
+    .navbar-items {
+        width: 100%;
+    }
+
+    .navbar-items ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0;
+    }
+
+    .navbar-logo {
+        display: none;
+    }
+
+    .navbar-items .navbar-item-text {
+        display: none;
+    }
+
+    .navbar-items .navbar-item-image {
+        display: flex
+    }
+    
     .banner-text h1 {
         font-size: 25px;
     }
@@ -520,15 +616,7 @@ color: blue;
         font-size: 12px;
     }
 
-    .logo a {
-        font-size: 16px;
-        letter-spacing: 1px;
-    }
-
-    nav a {
-        font-size: 9px;
-        letter-spacing: 1px;
-    }
+   
 
  }
 
@@ -536,29 +624,120 @@ color: blue;
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 575px) { 
+    .navbar-container {
+        justify-content: center;
+    }
+
+    .navbar-items {
+        width: 100%;
+    }
+
+    .navbar-items ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0;
+    }
+    .navbar-logo {
+        display: none;
+    }
+
+    .navbar-items .navbar-item-text {
+        display: none;
+    }
+
+    .navbar-items .navbar-item-image {
+        display: flex
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-image {
+        width: 100%;
+    }
+
+    .banner-text {
+        width: 100%;
+    }
+
     .banner-text h1 {
-        font-size: 15px;
+        font-size: 25px;
     }
     
     .banner-text h4 {
-        font-size: 8px;
+        font-size: 15px;
     }
 
     .main-button {
         width: auto;
     }
 
+    .main-content{
+        display: none;
+    }
+
+    .cards {
+        width: 100%;
+        padding: 52px;
+        display: block;
+    }
+
+    .card {
+        display: block;
+    }
+
+    .card-img {
+        width: 100%;
+    }
+
+    .card-text {
+        width: 100%;
+        padding: 5px;
+    }
+
     .card-text h4 {
         margin: 10px 0px;
-        font-size: 15px;
+        font-size: 26px;
     }
 
     .card-text p {
-        font-size: 8px;
+        font-size: 15px;
     }
 
     .card-text a {
-        font-size: 8px;
+        font-size: 15 px;
+    }
+                        /* Start Learning Section */
+
+    .text-center {
+        font-size: 20px;
+    }
+
+    .image-content img {
+        display: none;
+        background-color: gainsboro;
+    }
+
+    .text-container h4 {
+        display: none;
+    }
+
+    .text-container p {
+        display: none;
+    }
+
+    .image-container {
+        display: contents;
+        
+    }
+
+    .image-content .text-container {
+        text-align: center;
+        padding: 0;
     }
 
     .info-heading {
@@ -567,10 +746,12 @@ color: blue;
 
     .image-content {
         padding: 5px;
+        margin-bottom: 8px;
+        background-color: lightgray;
     }
 
     .text-container h3 {
-        font-size: 15px;
+        font-size: 20px;
     }
     
     .text-container h4 {
@@ -594,15 +775,25 @@ color: blue;
         width: 97%;
     }
 
-    .logo a {
-        font-size: 12px;
-        letter-spacing: 0px;
+                    /* Thesis Section */
+
+    .thesis-content {
+        width: 100%;
+        padding: 0;
     }
 
-    nav a {
-        font-size: 7px;
-        letter-spacing: 0px;
+    .thesis-content h3 {
+        display: none;
     }
+
+    .thesis-content p {
+        display: none;
+    }
+
+    .thesis-sec .cards {
+        display: none;
+    }
+    
 
  }
 
